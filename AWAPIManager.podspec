@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AWAPIManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AWAPIManager.'
+  s.summary          = '对AFNetworking的简单封装'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/AWAPIManager'
+  s.homepage         = 'https://github.com/tomwey/AWAPIManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tomwey' => 'tomwey@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/AWAPIManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tomwey/AWAPIManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'AWAPIManager/Classes/**/*'
   
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end

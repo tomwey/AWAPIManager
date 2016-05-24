@@ -1,0 +1,27 @@
+{
+  "name": "AWAPIManager",
+  "version": "0.1.0",
+  "summary": "对AFNetworking的简单封装",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tomwey/AWAPIManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tomwey": "tomwey@163.com"
+  },
+  "source": {
+    "git": "https://github.com/tomwey/AWAPIManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "AWAPIManager/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
