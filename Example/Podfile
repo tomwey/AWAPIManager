@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AWAPIManager_Example' do
+  pod 'AWAPIManager', :path => '../'
+
+  target 'AWAPIManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
