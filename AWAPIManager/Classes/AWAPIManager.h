@@ -1,4 +1,13 @@
-#import <UIKit/UIKit.h>
+//
+//  AWAPIManager.h
+//  Pods
+//
+//  Created by tangwei1 on 16/5/24.
+//
+//
+
+#ifndef AWAPIManager_h
+#define AWAPIManager_h
 
 #import "APIConfig.h"
 #import "APIDictionaryReformer.h"
@@ -8,8 +17,5 @@
 #import "APIManager.h"
 #import "APIReformer.h"
 #import "APIRequest.h"
-#import "AWAPIManager.h"
 
-FOUNDATION_EXPORT double AWAPIManagerVersionNumber;
-FOUNDATION_EXPORT const unsigned char AWAPIManagerVersionString[];
-
+#endif /* AWAPIManager_h */

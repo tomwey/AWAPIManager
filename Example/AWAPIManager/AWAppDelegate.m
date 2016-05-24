@@ -7,12 +7,14 @@
 //
 
 #import "AWAppDelegate.h"
+#import <AWAPIManager/AWAPIManager.h>
 
 @implementation AWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
     return YES;
 }
 
